@@ -1,0 +1,41 @@
+.homeHeader {
+  align-items: center;
+  z-index: 2;
+  position: sticky;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/bg/bgFin.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d0cdb640;
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8f2323;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
